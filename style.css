@@ -88,35 +88,36 @@ h1 {
     color: black;
 }
 
-.blog-1 {
+.Blog-post {
     width: 312px;
-    height: 370px;
-    background-color: rgb(206, 206, 212);
+    height: 362px;
+
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px gray;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: space-between;
 }
 
-.blog-box {
-    padding-bottom: 50px;
-
+.blog-post-img {
+    margin-top: -70px;
 }
 
-.imgg {
-    width: 312px;
-    height: 175px;
+.blog-anchor {
+    margin-top: 20px;
 }
 
-.watch-comment {
-    display: flex;
-    justify-content: left;
-    gap: 20px;
+.blog-btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #161616;
+    text-decoration: none;
 }
 
-.icon-one {
-    display: flex;
-    gap: 10px;
+.blog-content {
+    margin-left: 10px;
 }
 
 /* <!-- Maing end --> */
